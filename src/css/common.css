@@ -1,0 +1,26 @@
+@charset 'utf-8';
+:root {
+  --c1: #5e60ce;
+  --c2: #4ea8de;
+  --c3: #1e6f9f;
+  --c4: #8284fa;
+  --g1: #111;
+  --g2: #333;
+  --g3: #666;
+  --g4: #999;
+  --w1: #eaeaea;
+  --gap-b: 50px;
+  --gap-m: 32px;
+  --gap-s: 16px;
+  font-size: 10px;
+}
+body {
+  background-color: var(--g2);
+  font-size: 1.6rem;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2.4rem;
+}

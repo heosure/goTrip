@@ -1,0 +1,95 @@
+main {
+  width: calc(100% - 6rem);
+  max-width: 600px;
+  margin: auto;
+}
+.inputCon {
+  display: flex;
+  position: relative;
+  top: -2rem;
+  gap: var(--gap-s);
+}
+.inputCon input,
+.inputCon button {
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  color: white;
+}
+.inputCon input {
+  width: 75%;
+  background-color: var(--g2);
+  border: 1px solid var(--g1);
+}
+.inputCon input:focus {
+  background-color: var(--g1);
+  border-color: var(--w1);
+}
+.inputCon button {
+  flex: 1;
+  cursor: pointer;
+  background-color: var(--c3);
+}
+.inputCon button:hover {
+  background-color: var(--c2);
+}
+.listArea > p {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: calc(var(--gap-s) / 2);
+  font-size: 1rem;
+  font-weight: bold;
+  border-bottom: 1px dotted var(--g3);
+  padding: var(--gap-s) 0;
+  margin-bottom: var(--gap-s);
+}
+.listArea > p > strong {
+  color: var(--c4);
+}
+.listArea > p > span {
+  color: var(--w1);
+  background-color: var(--g3);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+.noList {
+  text-align: center;
+  color: var(--w1);
+}
+.noList i {
+  font-size: 4rem;
+  padding-bottom: 2rem;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--g4);
+  border-radius: 1rem;
+  color: var(--w1);
+  margin-bottom: calc(var(--gap-s) / 2);
+  transition: 0.3s;
+}
+.list:hover {
+  background-color: var(--g1);
+}
+.list p {
+  flex: 1;
+  cursor: pointer;
+  padding: calc(var(--gap-s) / 2);
+}
+.list i {
+  cursor: pointer;
+  padding: calc(var(--gap-s) / 2);
+  transition: 0.3s;
+}
+.list i:hover {
+  color: var(--c3);
+}
+.modal {
+  background-color: var(--w1);
+  border-radius: 16px;
+  padding: 16px;
+}
